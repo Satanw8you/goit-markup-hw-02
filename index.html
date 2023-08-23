@@ -3,33 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
 
   <body>
     <!--Header-->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="">Studio</a>
+    <header class="header">
+      <nav class="header-navigation-style">
+        <a href="./index.html" class="main-logo"><span class="main-logo-style">Web</span>Studio</a>
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a class="header-list-link" href="#">Studio</a>
           </li>
-          <li>
-            <a href="">Portfolio</a>
+          <li class="header-list-item">
+            <a class="header-list-link" href="#">Portfolio</a>
           </li>
-          <li>
-            <a href="">Contacts</a>
+          <li class="header-list-item">
+            <a class="header-list-link" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-adress-style">
+        <ul class="header-adress-list">
+          <li class="header-adress-item">
+            <a href="mailto:info@devstudio.com" class="header-adress-link">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="header-adress-item">
+            <a href="tel:+110001111111" class="header-adress-link">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -37,32 +48,32 @@
 
     <main>
       <!--Title-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
+      <section class="main-area">
+        <h1 class="main-tytle-text">Effective Solutions for Your Business</h1>
 
-        <button type="button">Order Service</button>
+        <button type="button" class="main-content-button"><span class="main-content-button-text">Order Service</span></button>
       </section>
 
       <!--Strategy tasks-->
-      <section>
+      <section class="strategy-container">
         <h2></h2>
 
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+            <h3 class="strategy-container-title">Strategy</h3>
+            <p class="strategy-container-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            <h3 class="strategy-container-title">Punctuality</h3>
+            <p class="strategy-container-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+            <h3 class="strategy-container-title">Diligence</h3>
+            <p class="strategy-container-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+            <h3 class="strategy-container-title">Technologies</h3>
+            <p class="strategy-container-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
           </li>
         </ul>
       </section>
@@ -90,6 +101,43 @@
             <img src="./images/img3.jpg" alt="Daniel" width="264" height="260" />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Portfolio info -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="./images/bankinhphoto.jpg" alt="windows of bank app" width="360" height="300" />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/payphoto.jpg" alt="payment process" width="360" height="300" />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/meditationphoto.jpg" alt="laptop for meditation" width="360" height="300" />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/taxlphoto.jpg" alt="car inside" width="360" height="300" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/screenphoto.jpg" alt="screenshots on mobile" width="360" height="300" />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/onlinephoto.jpg" alt="girl order smth" width="360" height="300" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
