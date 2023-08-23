@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-family: "Raleway", "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
     }
@@ -15,7 +15,7 @@ a {
 /* Header area */
 .main-logo {
     color:  #4D5AE5;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -24,9 +24,9 @@ a {
     text-transform: uppercase;
 }
 .main-logo-style {
-    color:  #2E2F42;
+    color:  #2E2F42; 
 }
-.header-adress-style{
+.header-adress-style {
     font-style: normal;
 }
 .header-list-link {
@@ -39,7 +39,7 @@ a {
     letter-spacing: 0.02em;
 }
 .header-list-link:hover, 
-.header-list-link:active {
+.header-list-link:focus {
     color: #404bbf;
 }
 .header-adress-link {
@@ -52,6 +52,6 @@ a {
     letter-spacing: 0.32px;
 }
 .header-adress-link:hover,
-.header-adress-link:active {
+.header-adress-link:focus {
     color: #404bbf
 }
