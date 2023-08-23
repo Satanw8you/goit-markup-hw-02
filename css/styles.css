@@ -14,8 +14,8 @@ a {
 
 /* Header area */
 .main-logo {
-    color:  #2E2F42;
-    font-family: Raleway;
+    color:  #4D5AE5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -24,7 +24,10 @@ a {
     text-transform: uppercase;
 }
 .main-logo-style {
-    color:  #4D5AE5;
+    color:  #2E2F42;
+}
+.header-adress-style{
+    font-style: normal;
 }
 .header-list-link {
     color: #2E2F42;
@@ -35,6 +38,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.header-list-link:hover, 
+.header-list-link:active {
+    color: #404bbf;
+}
 .header-adress-link {
     color: var(--slate, #434455);
     font-family: Roboto;
@@ -44,4 +51,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-
+.header-adress-link:hover,
+.header-adress-link:active {
+    color: #404bbf
+}
