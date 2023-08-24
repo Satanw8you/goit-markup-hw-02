@@ -1,5 +1,5 @@
 body {
-    font-family: "Raleway", "Roboto", sans-serif;
+    font-family:"Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
     }
@@ -43,7 +43,7 @@ a {
     color: #404bbf;
 }
 .header-adress-link {
-    color: var(--slate, #434455);
+    color:  #434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -54,4 +54,35 @@ a {
 .header-adress-link:hover,
 .header-adress-link:focus {
     color: #404bbf
+}
+/* First section */
+.title-conteiner {
+    background-color: #2e2f42;
+}
+.title-header {
+    color:  #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+}
+.title-conteiner-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+.title-conteiner-button-text {
+    color: #FFF;
+}
+..title-conteiner-button:hover,
+.title-conteiner-button:focus {
+    background-color: #404BBF;
 }
