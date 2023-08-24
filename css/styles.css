@@ -66,11 +66,11 @@ a {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .title-conteiner-button {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -80,9 +80,9 @@ a {
     background-color: #4D5AE5;
 }
 .title-conteiner-button-text {
-    color: #FFF;
+    color: #ffffff;
 }
-..title-conteiner-button:hover,
+.title-conteiner-button:hover,
 .title-conteiner-button:focus {
     background-color: #404BBF;
 }
